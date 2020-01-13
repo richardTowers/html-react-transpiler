@@ -1,0 +1,30 @@
+{
+  "name": "html-react-transpiler",
+  "version": "0.0.1",
+  "description": "A pluggable transpiler which converts HTML into react components",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Richard Towers",
+  "license": "MIT",
+  "dependencies": {
+    "ast-types": "^0.13.2",
+    "escodegen": "^1.12.1",
+    "jsdom": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/escodegen": "0.0.6",
+    "@types/jest": "^24.0.25",
+    "@types/jsdom": "^12.2.4",
+    "@types/node": "^13.1.6",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.3.0",
+    "ts-node": "^8.6.1",
+    "typescript": "^3.7.4"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  }
+}
