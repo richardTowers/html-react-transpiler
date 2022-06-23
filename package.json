@@ -11,7 +11,7 @@
   "dependencies": {
     "ast-types": "^0.13.2",
     "escodegen": "^1.12.1",
-    "jsdom": "^16.0.0"
+    "jsdom": "^16.5.0"
   },
   "devDependencies": {
     "@types/escodegen": "0.0.6",
